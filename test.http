@@ -1,0 +1,16 @@
+@apiKey=""
+
+### Get all sources in US
+GET https://newsapi.org/v2/top-headlines/sources?country=us&apiKey={{apiKey}}
+
+###  Get all sources everywhere
+GET https://newsapi.org/v2/top-headlines/sources?apiKey={{apiKey}}
+
+### Get all sources for a category
+GET https://newsapi.org/v2/top-headlines/sources?category=general&apiKey={{apiKey}}
+
+### Get sources for a category and in english
+GET https://newsapi.org/v2/top-headlines/sources?category=general&language=en&apiKey={{apiKey}}
+
+### Get all headlines for a category, in english and in Canada
+GET https://newsapi.org/v2/top-headlines?category=general&language=en&apiKey={{apiKey}}
